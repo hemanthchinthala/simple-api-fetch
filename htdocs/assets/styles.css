@@ -1,0 +1,424 @@
+  body {
+      background-color: #F4F4F5; #262626;
+      color: #262626; #9a9a9a;
+      font-family: Arial, sans-serif; 
+      font-size: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+    .olive-drab {
+      color: #76b900; 
+    }
+    .upcase {
+      text-transform: uppercase;
+    }
+    .white {
+      color: #000; #fff;
+    }
+
+    body.adaptive .grid-1,
+    body.fixed .grid-1 {
+      width: 110px;
+    }
+
+    body.adaptive .grid-2,
+    body.fixed .grid-2 {
+      width: 260px;
+    }
+
+    body.adaptive .grid-3,
+    body.fixed .grid-3 {
+      width: 410px;
+    }
+
+    body.adaptive .grid-4,
+    body.fixed .grid-4 {
+      width: 560px;
+    }
+
+    body.adaptive .grid-5,
+    body.fixed .grid-5 {
+      width: 710px;
+    }
+
+    body.adaptive .grid-6,
+    body.fixed .grid-6 {
+      width: 860px;
+    }
+
+    body.adaptive .grid-7,
+    body.fixed .grid-7 {
+      width: 1010px;
+    }
+
+    body.adaptive .grid-8,
+    body.fixed .grid-8 {
+      width: 1160px;
+    }
+
+    body.adaptive .grid-1,
+    body.adaptive .grid-2,
+    body.adaptive .grid-3,
+    body.adaptive .grid-4,
+    body.adaptive .grid-5,
+    body.adaptive .grid-6,
+    body.adaptive .grid-7,
+    body.adaptive .grid-8,
+    body.fixed .grid-1,
+    body.fixed .grid-2,
+    body.fixed .grid-3,
+    body.fixed .grid-4,
+    body.fixed .grid-5,
+    body.fixed .grid-6,
+    body.fixed .grid-7,
+    body.fixed .grid-8 {
+      display: block;
+      float: left;
+      margin: 0 40px 10px 0;
+    }
+
+    body.adaptive .grid-container,
+    body.fixed .grid-container,
+    body.fluid .grid-container,
+    body.responsive .grid-container {
+      margin: auto;  
+	  margin-top: 20px; 
+	  margin-bottom: 20px; 
+      max-width: 1160px;
+      width: 1160px; 
+    }
+
+    body.fluid .grid-1,
+    body.responsive .grid-1 {
+      width: 9.48275862069%;   /*  110px  */
+    }
+
+    body.fluid .grid-2,
+    body.responsive .grid-2 {
+      width: 22.413793103448%; /*  260px  */
+    }
+
+    body.fluid .grid-3,
+    body.responsive .grid-3 {
+      width: 35.344827586207%; /*  410px  */
+    }
+
+    body.fluid .grid-4,
+    body.responsive .grid-4 {
+      width: 48.275862068966%; /*  560px  */
+    }
+
+    body.fluid .grid-5,
+    body.responsive .grid-5 {
+      width: 61.206896551724%; /*  710px  */
+    }
+
+    body.fluid .grid-6,
+    body.responsive .grid-6 {
+      width: 74.137931034483%; /*  860px  */
+    }
+
+    body.fluid .grid-7,
+    body.responsive .grid-7 {
+      width: 87.068965517241%; /*  1010px */
+    }
+
+    body.fluid .grid-8,
+    body.responsive .grid-8 {
+      width: 100%;             /*  1160px */
+    }
+
+    body.fluid .grid-1,
+    body.fluid .grid-2,
+    body.fluid .grid-3,
+    body.fluid .grid-4,
+    body.fluid .grid-5,
+    body.fluid .grid-6,
+    body.fluid .grid-7,
+    body.fluid .grid-8,
+    body.responsive .grid-1,
+    body.responsive .grid-2,
+    body.responsive .grid-3,
+    body.responsive .grid-4,
+    body.responsive .grid-5,
+    body.responsive .grid-6,
+    body.responsive .grid-7,
+    body.responsive .grid-8 {
+      display: block;
+      float: left;
+      margin: 0 3.44% 1% 0;
+    }
+
+    body.fluid .grid-container,
+    body.responsive .grid-container {
+      width: 90%;
+    }
+
+    /* alpha and omega need to follow the grid-x classes */
+    .alpha {
+      margin-left: 0;
+    }
+    .omega {
+      margin-right: 0;
+    }
+
+    body.adaptive .feature,
+    body.fixed .feature {
+      float: left; 
+      margin: 12px; 
+      text-align: center; 
+      width: 360px; 
+    }
+
+    body.fluid .feature,
+    body.responsive .feature {
+      float: left;
+      margin: 1%;
+      text-align: center;
+      width: 31%;
+    }
+
+    body.fluid .feature img,
+    body.responsive .feature img {
+      width: 98%;
+    }
+
+    body.fluid .feature p,
+    body.responsive .feature p {
+      margin-top: 5px;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+
+
+    body.adaptive .feature p sup,
+    body.fixed .feature p sup,
+    body.fluid .feature p sup,
+    body.responsive .feature p sup {
+      font-size: 9px;
+    }
+
+    body.adaptive .specs-table,
+    body.fixed .specs-table,
+    body.fluid .specs-table,
+    body.responsive .specs-table {
+      border-spacing: 0;
+      width: 96%;
+    }
+
+    body.adaptive .specs-table td,
+    body.fixed .specs-table td,
+    body.fluid .specs-table td,
+    body.responsive .specs-table td {
+      border: 1px solid #414141;
+      padding: 5px;
+      width: 50%;
+    }
+
+    body.fixed .specs-table .category,
+    body.fluid .specs-table .category,
+    body.responsive .specs-table .category {
+      color: #fff;
+    }
+
+    body.adaptive .specs-table .std,
+    body.fixed .specs-table .std,
+    body.fluid .specs-table .std,
+    body.responsive .specs-table .std {
+      background: #1e1e1e;
+    }
+
+    @media screen and (max-width: 1024px) and (min-width: 641px) {
+      body.adaptive .grid-container {
+        width: 922px;
+      }
+
+      body.adaptive .grid-8 {
+        width: 922px;
+      }
+
+      body.adaptive .feature {
+        width: 424px;
+      }
+
+      body.responsive .feature {
+        width: 46%;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      body.adaptive .grid-container {
+        width: 690px;
+      }
+
+      body.adaptive .grid-8 {
+        width: 690px;
+      }
+
+      body.adaptive .feature {
+        width: 318px;
+      }
+
+      body.adaptive .feature img {
+        width: 318px;
+      }
+    }
+
+    @media screen and (max-width: 640px) and (min-width: 320px) {
+      body.adaptive .grid-container {
+        width: 576px;
+      }
+
+      body.adaptive .grid-8 {
+        width: 576px;
+      }
+
+      body.responsive .grid-1,
+      body.responsive .grid-2,
+      body.responsive .grid-3,
+      body.responsive .grid-4,
+      body.responsive .grid-5,
+      body.responsive .grid-6,
+      body.responsive .grid-7,
+      body.responsive .grid-8 {
+        width: 100%;
+      }
+
+      body.adaptive .feature {
+        margin: 0;
+        width: 576px;
+      }
+
+      body.responsive .feature {
+        float: none;
+        margin: 0;
+        width: 100%;
+      }
+
+      body.adaptive .feature img {
+        width: 565px;
+      }
+
+      body.responsive .feature p {
+        font-size: 1.1em;
+        height: auto;
+        margin-bottom: 50px;
+      }
+
+      body.responsive .feature.first {
+        margin-top: 25px;
+      }
+
+      body.responsive .feature.last p {
+        margin-bottom: 0;
+      }
+
+      body.responsive .specs-table td {
+        float: left;
+        width: 100%;
+      }
+
+      body.responsive .specs-table td.category {
+        background: #1e1e1e;
+      }
+
+      body.responsive .specs-table td.specification {
+        background: #262626;
+      }
+    }
+
+    @media screen and (max-width: 320px) {
+      body.adaptive .grid-container {
+        width: 288px;
+      }
+
+      body.adaptive .grid-8 {
+        width: 288px;
+      }
+
+      body.adaptive .feature {
+        margin: 0;
+        width: 288px;
+      }
+
+      body.adaptive .feature img {
+        width: 282px;
+      }
+
+      body.adaptive .specs-table td {
+        float: left;
+        width: 100%;
+      }
+
+      body.adaptive .specs-table td.category {
+        background: #1e1e1e;
+      }
+
+      body.adaptive .specs-table td.specification {
+        background: #262626;
+      }
+    } 
+
+
+
+div.dfsfrv span {
+	
+	font-weight: bold; 
+	margin: 10px; 
+	}
+
+pre {
+        overflow-x: auto;
+        white-space: pre-wrap;
+        white-space: -moz-pre-wrap;
+        white-space: -pre-wrap;
+        white-space: -o-pre-wrap;
+        word-wrap: break-word;  
+		font-size: 16px; 
+		font-family: inherit;  
+      }
+
+ 
+.link-btn{ 
+		background-color: blue;
+		color: white;
+		font-weight: bold; 
+		padding: 10px 20px 10px 20px;   border-radius: 6px; 
+	} 
+	.button-style.btn-primary{
+		background-color: blue;
+	}
+	.button-style.btn-secondary{
+		background-color: orange !important;
+	}
+	.button-style.btn-success{
+		background-color: limegreen !important;
+	}
+	
+	amp-img.homeimg{border-radius:10px; object-fit:cover; margin:2px;  
+		
+		
+	}  
+
+
+
+a { text-decoration: none;
+			color: inherit; }
+		div.menunav ul li{   
+					 font-weight: bold; 
+					 font-size: 20px;  
+					 /**background-color: grey;
+					 padding:4px 20px 4px 20px ; 
+					 border-radius: 10px; **/
+			}  
+		.hList > * {  list-style: none; 
+			          float: left;
+					  margin-right:20px ; 
+					  margin-bottom: 2px; 
+					  margin-top: 2px;   
+			        }
+
+
+
